@@ -38,6 +38,11 @@ Go to **resources\sass\app.scss** and add this line of code:
 ```
 
 ### Relations in an model:
+Make sure you include the model of the relation:
+```php
+use App\Models\Example;
+```
+
 **Has many**
 ```php
 public function example() {
