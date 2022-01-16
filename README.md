@@ -61,3 +61,8 @@ public function example() {
 $table->unsignedBigInteger('example_id');
 $table->foreign('example_id')->references('id')->on('example');
 ```
+
+### Clearing route cache:
+```
+php artisan route:cache
+```
