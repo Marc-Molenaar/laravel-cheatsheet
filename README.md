@@ -1,5 +1,7 @@
 # Laravel Notes
 
+<img src="https://img.shields.io/badge/laravel-8-blueviolet" alt="Latest Stable Version"> <img src="https://img.shields.io/badge/php-8.1.1-yellowgreen" alt="License">
+
 Use this repository to find a solution for your problem, instead of searching the whole internet for possible solutions.
 
 **NOTE!** Laravel version 8 is required
