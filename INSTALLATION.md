@@ -3,7 +3,7 @@
 ### Navigation
 - [Home](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/README.md)
 - Installation / Basics
-- [Controller](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/CONTROLLER.mdt)
+- [Controller](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/CONTROLLER.md)
 - [Model](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MODEL.md)
 
 ### Setup Laravel:
