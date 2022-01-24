@@ -2,8 +2,8 @@
 
 ### Navigation
 - Home
-- [Installation / Basics](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/INSTALLATION.mdt)
-- [Controller](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/CONTROLLER.mdt)
+- [Installation / Basics](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/INSTALLATION.md)
+- [Controller](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/CONTROLLER.md)
 - [Model](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MODEL.md)
 
 ### Useful sites:
