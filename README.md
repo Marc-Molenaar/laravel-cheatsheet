@@ -10,10 +10,3 @@
 ### Useful sites:
 - https://laravel.com/docs/8.x
 - https://getbootstrap.com/docs/5.1/getting-started/introduction/
-
-
-### Relations in an migration:
-```php
-$table->unsignedBigInteger('example_id');
-$table->foreign('example_id')->references('id')->on('example');
-```
