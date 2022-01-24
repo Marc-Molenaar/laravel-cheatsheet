@@ -1,4 +1,4 @@
-# Laravel Cheatsheet: Controller
+# Laravel Notes: Controller
 
 ### Navigation
 - [Home](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/README.md)
