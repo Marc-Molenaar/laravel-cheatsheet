@@ -9,6 +9,6 @@
 
 ### Relations in an migration
 ```php
-$table-unsignedBigInteger('example_id');
-$table-foreign('example_id')-references('id')-on('example');
+$table->unsignedBigInteger('example_id');
+$table->foreign('example_id')->references('id')->on('example');
 ```
