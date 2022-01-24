@@ -1,10 +1,10 @@
 # Laravel Notes Relations
 
 ### Navigation
-- [Home](httpsgithub.comSjoerd-69laravel-cheatsheetblobmainREADME.md)
-- [Installation  Basics](httpsgithub.comSjoerd-69laravel-cheatsheetblobmainINSTALLATION.md)
-- [Controller](httpsgithub.comSjoerd-69laravel-cheatsheetblobmainCONTROLLER.md)
-- [Model](httpsgithub.comSjoerd-69laravel-cheatsheetblobmainMODEL.md)
+- [Home](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/README.md)
+- [Installation / Basics](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/INSTALLATION.md)
+- [Controller](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/CONTROLLER.md)
+- [Model](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MODEL.md)
 - Relations
 
 ### Relations in an migration
