@@ -2,8 +2,8 @@
 
 ### Navigation
 - [Home](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/README.md)
-- [Installation / Basics](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/INSTALLATION.mdt)
-- [Controller](https://github.com/Sjoerd-69/laravel-cheatshee/blob/main/CONTROLLER.mdt)
+- [Installation / Basics](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/INSTALLATION.mdt)
+- [Controller](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/CONTROLLER.mdt)
 - Model
 
 ### Relations in an model:
