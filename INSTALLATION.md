@@ -5,6 +5,7 @@
 - Installation / Basics
 - [Controller](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/CONTROLLER.md)
 - [Model](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MODEL.md)
+- [Migrations](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MIGRATIONS.md)
 
 ### Setup Laravel:
 Make sure you have npm and composer installed.
