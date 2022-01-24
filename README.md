@@ -1,5 +1,9 @@
 # Laravel Notes
 
+Use this repository to find a solution for your problem, instead of searching the whole internet for possible solutions.
+
+**NOTE!** Laravel version 8 is required
+
 ### Navigation
 - Home
 - [Installation / Basics](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/INSTALLATION.md)
