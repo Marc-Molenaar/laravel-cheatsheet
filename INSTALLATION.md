@@ -58,7 +58,7 @@ php artisan route:cache
 ```
 
 ### Notification
-```php
+```blade
 @if(session()->has('success'))
     <div class="alert alert-success my-3">
 	{{ session()->get('success') }}
