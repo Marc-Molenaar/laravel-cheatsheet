@@ -24,16 +24,6 @@ npm run watch
 php artisan make:model Example --migration --controller --resource   
 ```
 
-### Migrations:
-**Normal migration:**
-```
-php artisan migrate   
-```
-**Fresh migration:**
-```
-php artisan migrate:fresh
-```
-
 ### Adding Bootstrap Icons to your Laravel project:
 Go to **resources\sass\app.scss** and add this line of code:
 ```php
@@ -43,4 +33,26 @@ Go to **resources\sass\app.scss** and add this line of code:
 ### Clearing route cache:
 ```
 php artisan route:cache
+```
+
+### CRUD buttons for table
+```blade
+<form action="{{ route('example.destroy', $example->id) }}" method="POST">
+	<a href="{{route('reservations.show', $example->id)}}"><button type="button" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye-fill"></i></button></a>
+	<a href="{{route('reservations.edit', $example->id)}}"><button type="button" class="btn btn-sm btn-outline-warning"><i class="bi bi-pencil-fill"></i></button></a>
+	<button type="submit" onclick="return confirm('Weet u zeker dat u dit wilt verwijderen?')" class="btn btn-sm btn-outline-danger"><i class="bi bi-x-circle-fill"></i></button>
+	@csrf
+	@method('DELETE')
+</form>
+```
+
+### Add button above table
+```blade
+<div class="d-flex justify-content-between">
+    <h1>Example</h1>
+
+    <div class="buttons">
+        <a href="{{route('example.create')}}"><button type="button" class="btn btn-success"><i class="bi bi-plus-lg"></i> Toevoegen</button></a>
+    </div>
+</div>
 ```
