@@ -48,25 +48,36 @@ Example::create([
 ]);
 ```
 
-### Add DB class to controller
+### Example Line editor
 ```php
-use Illuminate\Support\Facades\DB;
-```
+// Check if TestLine exists
+if($request->test_line):
 
+	// Delete all test lines
+	TestLine::where('test_id', 'LIKE', $test->id)->delete();
 
-### Select first row from table where statement
-```php
-$example = DB::table('example')->where('id', '=', $test)->first();
-```
+	foreach($request->test_line as $line):
 
+		$example = Example::where('id', 'LIKE', $line['example_id'])->first();
+		
+		// Check if all required values aren't empty
+		if( !empty($line['example_id']) &&
+			!empty($example->price) &&
+			!empty($line['amount'])
+		):
 
-### Select all rows from table where statement
-```php
-$example = DB::table('example')->where('id', '=', $test)->get();
-```
+			// Create TestLine
+			TestLine::create([
+				'example_id' => $line['example_id'],
+				'test_id' => $test->id,
+				'amount' => $line['amount'],
+				'price' => $example->price,
+				'description' => $line['description'],
+			]);
 
+		endif; // required values
 
-### Delete all rows from table where statement
-```php
-DB::table('example')->where('id', '=', $test)->delete();
+	endforeach; // loop through TestLine
+
+endif; // TestLine not empty
 ```
