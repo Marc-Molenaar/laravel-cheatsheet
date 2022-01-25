@@ -38,8 +38,8 @@ php artisan route:cache
 ### CRUD buttons for table
 ```blade
 <form action="{{ route('example.destroy', $example->id) }}" method="POST">
-	<a href="{{route('reservations.show', $example->id)}}"><button type="button" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye-fill"></i></button></a>
-	<a href="{{route('reservations.edit', $example->id)}}"><button type="button" class="btn btn-sm btn-outline-warning"><i class="bi bi-pencil-fill"></i></button></a>
+	<a href="{{route('example.show', $example->id)}}"><button type="button" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye-fill"></i></button></a>
+	<a href="{{route('example.edit', $example->id)}}"><button type="button" class="btn btn-sm btn-outline-warning"><i class="bi bi-pencil-fill"></i></button></a>
 	<button type="submit" onclick="return confirm('Weet u zeker dat u dit wilt verwijderen?')" class="btn btn-sm btn-outline-danger"><i class="bi bi-x-circle-fill"></i></button>
 	@csrf
 	@method('DELETE')
