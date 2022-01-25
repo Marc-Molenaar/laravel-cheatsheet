@@ -39,3 +39,34 @@ $test->delete();
 return redirect()->route('test.index')
                  ->with('success','Verwijderd');
 ```
+
+
+### Insert row with pre-defined values
+```php
+Example::create([
+    'value1' => $example
+]);
+```
+
+### Add DB class to controller
+```php
+use Illuminate\Support\Facades\DB;
+```
+
+
+### Select first row from table where statement
+```php
+$example = DB::table('example')->where('id', '=', $test)->first();
+```
+
+
+### Select all rows from table where statement
+```php
+$example = DB::table('example')->where('id', '=', $test)->get();
+```
+
+
+### Delete all rows from table where statement
+```php
+DB::table('example')->where('id', '=', $test)->delete();
+```
