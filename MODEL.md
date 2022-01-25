@@ -25,3 +25,10 @@ public function example() {
   return $this->belongsTo(Example::class);
 }
 ```
+
+### Fillable columns in database
+```php
+protected $fillable = [
+    'column1', 'column2'
+];
+```
