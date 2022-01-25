@@ -18,7 +18,7 @@
             </div>
             <div class="card-body">
                 
-                <input type="text" class="form-control" placeholder="Zoeken..." name="search" id="search">
+                <input type="text" class="form-control" placeholder="Searcg..." name="search" id="search">
 
                 <div class="card my-3 product_items border-0">
                     <div class="card-header">
