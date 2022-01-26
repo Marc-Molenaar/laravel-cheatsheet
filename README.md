@@ -12,6 +12,7 @@ Use this repository to find a solution for your problem, instead of searching th
 - [Controller](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/CONTROLLER.md)
 - [Model](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MODEL.md)
 - [Migrations](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MIGRATIONS.md)
+- [Routing](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/ROUTING.md)
 
 ### Useful sites:
 - https://laravel.com/docs/8.x

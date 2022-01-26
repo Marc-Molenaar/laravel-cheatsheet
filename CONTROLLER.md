@@ -6,6 +6,7 @@
 - Controller
 - [Model](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MODEL.md)
 - [Migrations](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/MIGRATIONS.md)
+- [Routing](https://github.com/Sjoerd-69/laravel-cheatsheet/blob/main/ROUTING.md)
 
 ### Update Controller
 ```php
