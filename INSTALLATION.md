@@ -16,7 +16,8 @@ composer require laravel/ui
 php artisan ui bootstrap
 php artisan ui bootstrap --auth
 npm i bootstrap-icons
-npm install && npm run dev
+npm install
+npm run dev
 npm run watch
 ```
 
