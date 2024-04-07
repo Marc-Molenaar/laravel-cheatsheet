@@ -1,4 +1,6 @@
-# Laravel Notes
+# Laravel Notes [Outdated]
+
+Please use this cheatsheet with causion! The code snippets and hints may be outdated or incomplete!
 
 <img src="https://img.shields.io/badge/laravel-8-blueviolet" alt="Latest Stable Version"> <img src="https://img.shields.io/badge/php-8.1.2-yellowgreen" alt="License">
 
